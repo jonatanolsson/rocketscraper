@@ -1,0 +1,16 @@
+{
+  "name": "jonatanolsson/rocketscraper",
+  "description": "PHP Library to use rocketscrape API",
+  "type": "library",
+  "version": "1.0",
+  "keywords": [
+    "rocketscrape"
+  ],
+  "license": "MIT",
+  "require": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {"jonatanolsson\\rocketscraper\\": "/src"}
+  }
+}
